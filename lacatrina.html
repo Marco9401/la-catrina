@@ -8,6 +8,67 @@
 
 
 <style>
+  h1 {
+    text-align: center;
+  }
+
+.borde-bone {
+border-color: rgb(255, 95, 2);
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 15%;
+    -webkit-box-shadow: 0px 0px 10px 10px #ec731e;
+    margin: 20px 15px;
+    padding: 10px;
+}
+
+.borde-bone2 {
+border-color: rgb(255, 2, 2);
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 15%;
+    -webkit-box-shadow: 0px 0px 10px 10px #ec3d1e;
+    margin: 20px 15px;
+    padding: 10px;
+}
+
+
+.borde-bone3 {
+border-color: rgb(0, 99, 21);
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 15%;
+    -webkit-box-shadow: 0px 0px 10px 10px #0b7507;
+    margin: 20px 15px;
+    padding: 10px;
+}
+
+
+.borde-bone4 {
+border-color: rgb(255, 2, 255);
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 15%;
+    -webkit-box-shadow: 0px 0px 10px 10px #b025bd;
+    margin: 20px 15px;
+    padding: 10px;
+
+}
+
+
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+   .thin-yellow-border {
+    border-color: rgb(65, 221, 3);
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 15px 15px #58d129;
+   }
+
 
   h1 {
     font-family:Verdana, Geneva, Tahoma, sans-serif
@@ -15,7 +76,7 @@
   .white-text {
     color: white;
   }
-}
+
   .green-text {
     color: green;
   }
@@ -29,29 +90,31 @@
   li{
     font-size: 30px;
   }
-  .larger-image {
-    width: 400px;
+  .smaller-image {
+    width: 200px;
   }
+
   
   .red-text {
     color: red;
+    
   }
   .black-background {
-  background-color: black;
+  background-color: rgb(29, 68, 3);
 }
 
 </style>
 
 </head>
 
-<body bgcolor="black">
+<body class="black-background">
   <div class="contenetor">
     <button><i class="fas fa-skull-crossbones"></i></button>
   </div>
 
 
 <main>
-  <audio autoplay>
+  <audio autoplay controls>
     <source src="jbalvin.mp3" type="audio/mp3">
   </audio>
  
@@ -62,17 +125,20 @@
  
 
 
-  <h1 class="white-text" class="Verdana, Geneva, Tahoma, sans-serif">La Catrina Bar</h1>
-  <a href="#"><img src="https://micheladas-lacatrina.rdmenu.com/media/micheladas-lacatrina/rc-upload-1615818697715-2" class="larger-image"  alt="Bar La Catrina"></a>
+  <h1 class="white-text" class="h1">La Catrina Bar</h1>
+  <div>
+  <a href="#"><h1><img id="rect" class="smaller-image , thin-yellow-border" src="https://micheladas-lacatrina.rdmenu.com/media/micheladas-lacatrina/rc-upload-1615818697715-2" class="larger-image"  alt="Bar La Catrina"></a></h1>
+  </div>
   <p class="white-text">Un lugar perfecto para disfrutar del mejor ambiente junto a tus amigos con las mejores bebidas:</p>
   <ol class="white-text">
-    <li class="fas fa-skull-crossbones"><input type="sodas">Sodas </li>
+    <li><i class="fas fa-skull-crossbones , borde-bone">Sodas</i></li>
 
-    <li class="fas fa-skull-crossbones">MICHELADAS</li>
+    <li><i class="fas fa-skull-crossbones , borde-bone2">Cocteles</i></li>
 
-    <li class="fas fa-skull-crossbones">COCTELES</li>
+    <li><i class="fas fa-skull-crossbones , borde-bone3">Shots</i></li>
+
+    <li><i class="fas fa-skull-crossbones , borde-bone4">Micheladas</i></li>
     
-    <li class="fas fa-skull-crossbones">xxxSHOTS</li>
   </ol>
   <p class="white-text">Nuestra prioridad es prestarte el mejor servicio</p>
 
@@ -86,7 +152,7 @@
 <ol>
   <a class="white-text" target="_blank" href="https://instagram.com/micheladaslacatrina/#/">INSTAGRAM</a>
   <a class="green-text" target="_blank" href="https://www.facebook.com/Micheladaslacatrina-103352888432449">FACEBOOK</a>
-  <a class="green-text" target="_blank" href=WHATSAPP>WHATSAPP</a>
+  <a class="green-text" target="_blank" href=OJO>WHATSAPP</a>
 </ol>
 
 </main>
